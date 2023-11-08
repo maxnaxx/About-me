@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="">
+         <div class="form-group">
+            <label for="city">Город</label>
+            <select name="" id="city" class="select">
+                <optgroup label="Россия">
+                    <option value="1">Москва</option>
+                    <option value="2" selected>Екатеринбург</option>
+                </optgroupд>
+                <optgroup label="Беларусь">
+                    <option value="3">Минск</option>
+                    <option value="4">Гомель</option>
+                </optgroupд>
+                <optgroup label="Польша">
+                    <option value="5">Варшава</option>
+                    <option value="6">Краков</option>
+                </optgroupд>
+            </select>
+         </div>
+         <div class="form-group">
+            <label class="checkbox">
+             <input type="checkbox" name="" class="checkbox_input">
+             <span class="checkbox_marker"></span>
+             Я согласен на все условия
+            </label> 
+         </div>
+         <div class="form-group">
+            <h3>Выберите пол</h3>
+            <!-- label*3>input:radio -->
+            <label>
+                <input type="radio" name="gender"> Мужской
+            </label>
+            <label>
+                <input type="radio" name="gender"> Женский
+            </label>
+            <label>
+                <input type="radio" name="gender"> Не определился 
+            </label>
+            <label>  
+                <input type="radio" name="gender"> Нет такого в списке
+            </label>
+         </div>
+    </form>
+</body>
+</html>

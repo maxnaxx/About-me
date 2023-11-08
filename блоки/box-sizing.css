@@ -1,0 +1,17 @@
+.box {
+     width: 100px;
+     height: 100px;
+     box-sizing: border-box;
+ 
+     margin: 20px;
+     border: 10px solid black; 
+}
+.box_red {
+    background-color: red;
+}
+.box_blue {
+    background-color: blue;
+}
+.box_green {
+    background-color: green;
+} 

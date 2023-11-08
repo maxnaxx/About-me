@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+            border-radius: 25px;
+
+        }
+        .first:hover{
+            animation-name: animationfirst;
+            animation-duration: 500ms;
+            width: 100%;
+            height: 150px;
+            
+        }
+        @keyframes animationfirst {
+                0%{
+                    width: 50px;
+                }
+                50%{
+                    width: 100%;
+                    height: 50px;
+                    background-color: blue;
+                }
+                100%{
+                    height: 150px;
+                }
+            }
+        .last{
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+        .last:hover{
+            animation-name: animationlast;
+            animation-duration: 500ms;
+        }
+        @keyframes animationlast {
+            0%{
+                margin-top: 0;
+
+            }
+            50%{
+                margin-top: 25px;
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(180deg);
+            }
+        }
+        @media screen and (max-width:600px) {
+            .last{
+            animation-name: animationlast;
+            animation-duration: 500ms;
+        }
+        }
+        @media screen and (max-width:400px) {
+            .first{
+            animation-name: animationfirst;
+            animation-duration: 500ms;
+            width: 100%;
+            height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="last"></div>
+
+</body>
+</html>

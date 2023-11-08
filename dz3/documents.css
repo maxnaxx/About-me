@@ -1,0 +1,27 @@
+.submit-documents{
+    font-family: sans-serif;
+    /* font-weight: 700; */
+}
+.submit-documents__russian{
+    width: 600px;
+    height: 120px;
+    background-color: rgb(0, 154, 62);
+}
+.submit-documents__russian-link{
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    padding: 85px 10px 0;
+}
+.submit-documents__foreign{
+    width: 600px;
+    height: 120px;
+    background-color: rgb(0, 121, 193);
+    margin-top: 15px;
+}
+.submit-documents__foreign-link{
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    padding: 85px 10px 0;
+}

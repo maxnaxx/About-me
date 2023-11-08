@@ -1,0 +1,73 @@
+.container{
+    width: 530px;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.form{
+    display: flex;
+}
+.form__item{
+    margin-left: 30px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.form__topic-travel{
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(53, 0, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__topic-lifestyle{
+    width: 85px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(12, 186, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__topic-cooking{
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(8, 169, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__topic-wildlife{
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(241, 124, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__item-title{
+    margin-top: 25px;
+}
+.form__author{
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 20px;
+}

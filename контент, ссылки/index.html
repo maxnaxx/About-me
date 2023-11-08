@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: green;
+            width: 800px;
+        }
+        #first {
+            background-color: brown;
+        }
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- header+main+footer -->
+    <!-- table>tr>th*6>lorem1 -->
+    <table border="1">
+        <tr id="first">
+            <th colspan="2" rowspan="2">Uchenik</th>
+            <th colspan="2">Predmet</th>
+        </tr>
+        <tr>
+            <td>Matematika</td>
+            <td>Informatika</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Butin Dima</th>
+            <th class="blue">Quaerat.</th>
+            <th rowspan="2">Delectus!</th>
+            <th class="blue">Nobis.</th>
+        </tr>
+        <tr>
+            <th>Quaerat.</th>
+            <th rowspan="2">Delectus!</th>
+        </tr>
+        <tr>
+            <th>Quaerat.</th>
+            <th>Delectus!</th>
+        </tr>
+    </table>
+</body>
+</html>

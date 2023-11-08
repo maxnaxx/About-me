@@ -1,0 +1,91 @@
+body{
+margin: 0;
+}
+.container{
+    margin-top: 10px;
+}
+.starter{
+    font-family: sans-serif;
+    color: rgb(43, 43, 43);
+}
+.starter__main{
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+    display: inline-flex;
+    margin-left: 235px;
+}
+.starter__main-icon{
+    width: 50px;
+}
+.starter__text{
+    padding-left: 5px;
+}
+.starter-links{
+   margin-left: 1050px;
+   margin-top: -35px;
+}
+.starter-links__github{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+.starter-links__signin{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    padding-left: 20px;
+    padding-top: 0;
+}
+.text-center{
+    font-family: sans-serif;
+    font-size: 22px;
+
+    margin: auto 200px;
+    padding: 120px 100px 80px;
+    text-align: center;
+}
+.text-center_lightblue{
+    font-size: 40px;
+    font-weight: 800;
+    color:  rgb(3,169,244);
+}
+.text-center__gray{
+    color: gray;
+    padding-top: 35px;
+}
+.download-button{
+    width: 290px;
+    height: 55px;
+    border-radius: 5px;
+    background-color:  rgb(3,169,244);
+    align-items: center;
+    display: inline-flex;
+    margin: 50px 265px;
+}
+.download-button__link{
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+    margin: 4px 23px;
+}
+footer{
+    font-family: sans-serif;
+
+    background-color: rgb(247,250,252);
+    padding: 50px 0 120px;
+}
+.title{
+    text-align: center;
+    margin: 0 300px;
+}
+.title__black{
+    font-size: 30px;
+}
+.lorem-gray{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+

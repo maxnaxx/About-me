@@ -1,0 +1,4 @@
+.control:focus{
+    outline-offset: 5px;
+    outline: 1px solid grey;
+}

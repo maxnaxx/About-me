@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .item-list{
+            display: flex;
+
+            border: 1px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 10px 0;
+        }
+        .item-list_image{
+            width: 100px;
+            height: 100px;
+        }
+        .item-list_item{
+            margin-right: 10px;
+        }
+        .item-list_title{
+            margin: 0;
+        }
+        .item-list_description{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .item-list_marker{
+            background-color: blue;
+            color: white;
+            padding: 5px 10px;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+        }
+        .item-list_title{
+            font-size: 20px;
+            line-height: 30px;
+            /* line-height: 1.5em; */
+        }
+        .item-list_author{
+            color: gray;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- .item-list>.item-list_item>img.item-list_image -->
+    <div class="item-list">
+        <div class="item-list_item">
+            <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Travel image" class="item-list_image">
+            <!-- .item-list_description>.item-list_marker{Travel}+h3.item-list_title>lorem10^.item-list_author{Некий автор} -->
+        </div>
+        <div class="item-list_description">
+            <div class="item-list_marker">travel</div>
+            <h3 class="item-list_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eius!</h3>
+            <div class="item-list_author">Некий автор</div>
+        </div>
+    </div>
+    <div class="item-list">
+        <div class="item-list_item">
+            <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Travel image" class="item-list_image">
+            <!-- .item-list_description>.item-list_marker{Travel}+h3.item-list_title>lorem10^.item-list_author{Некий автор} -->
+        </div>
+        <div class="item-list_description">
+            <div class="item-list_marker_greem">travel</div>
+            <h3 class="item-list_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eius!</h3>
+            <div class="item-list_author">Некий автор</div>
+        </div>
+    </div>
+    <div class="item-list">
+        <div class="item-list_item">
+            <img src="https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Travel image" class="item-list_image">
+            <!-- .item-list_description>.item-list_marker{Travel}+h3.item-list_title>lorem10^.item-list_author{Некий автор} -->
+        </div>
+        <div class="item-list_description">
+            <div class="item-list_marker_">travel</div>
+            <h3 class="item-list_title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, eius!</h3>
+            <div class="item-list_author">Некий автор</div>
+        </div>
+    </div>
+</body>
+</html>

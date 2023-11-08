@@ -1,0 +1,37 @@
+.form{
+    padding: 30px;
+    width: 300px;
+}
+.form_header{
+    font-family: sans-serif;
+    text-align: center;
+}
+.form_title{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form_log-in{
+    color: rgb(79, 165, 218);
+    text-decoration: none;
+}
+.form_control{
+    border: none;
+    width: 100%;
+    border-bottom: 1.5px solid grey;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.form_control:focus{
+     outline: none;
+     border-bottom-color: red;
+}
+.form_group{
+    margin: 20px 0;
+}
+.button{
+    display: block;
+    background: rgb(79, 165, 218);
+    color: white; 
+    width: 100%;
+    border: none; 
+    padding: 10px;
+}

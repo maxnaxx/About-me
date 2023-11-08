@@ -1,0 +1,23 @@
+.select {
+    appearance: none;
+    padding: 10px;
+    /* background-image: url(/src/svg/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 5px center; */
+    background: url(/src/svg/arrow.svg) right 5px center no-repeat;
+    background-size: 15px;
+}
+.checkbox_input {
+    display: none;
+}
+.checkbox_marker {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 1px solid black;
+}
+.checkbox_input:checked + .checkbox_marker {
+    /* margin-right: 10px; */
+background: green;
+}

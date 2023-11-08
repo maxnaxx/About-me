@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(255, 229, 0);
+}
+.site{
+    width: 1200px;
+    height: 650px;
+
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(17, 19, 23);
+
+    margin: 80px 100px;
+    box-shadow: 0 0 15px 5px rgba(20, 22, 26, 0.466);
+}
+header{
+    background-color: rgb(29, 31, 37);
+    display: flex;
+    width: 1080px;
+    height: 45px;
+    padding: 10px 60px;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    color: rgb(255, 229, 0);
+    display: block;
+    margin: 0;
+}
+.letter-d{
+    color: white;
+}
+.navbar__style{
+    font-size: 18px;
+    
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+.navbar__items{
+    margin-left: 50px;
+}
+.navbar__items-home{
+    margin-left: 300px;
+    padding: 5px 0;
+    border-bottom: 2px solid rgb(255, 229, 0);
+}
+.td-none{
+    text-decoration: none;
+    color: white;
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.main-info{
+    width: 400px;
+    height: 400px;
+    margin-left: 80px;
+}
+.hello-style{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 229, 0);
+
+}
+.name{
+    font-size: 50px;
+    margin: 0;
+}
+.presentation{
+    font-size: 20px;
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+}
+.button__hire{
+    text-decoration: none;
+    color: rgb(17, 19, 23);
+    font-weight: 700;
+
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 229, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+
+}
+.button__works{
+    font-weight: 700;
+    width: 120px;
+    height: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.photograph{
+    margin-right: 20px;
+}
+
+

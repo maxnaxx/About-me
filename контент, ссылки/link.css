@@ -1,0 +1,21 @@
+/* body{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+} */
+/* a:hover - стиль ссылки при наведении 
+a:link - любая ссылка
+a:active - состояние ссылки, когда ссылка открыта в новой вкладке, но курсор все еще на ней
+a:visited - стиль посещенной ссылки*/
+
+/* a:hover{
+    color: brown;
+}
+a:active{
+    background-color: rgb(81, 51, 15);
+} */
+
+a:visited{
+color: rgb(226, 43, 43);
+}

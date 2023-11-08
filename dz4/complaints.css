@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    height: 610px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px;
+    border: 1px dotted black;
+}
+header{
+    border-bottom: 3px solid gray;
+}
+.header__title{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.header__text{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.form{
+    width: 550px;
+    height: 400px;
+    padding: 20px 130px 0 20px;
+    border-top: 4px solid black;
+}
+.name-item{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    height: 75px;
+}
+.red-star{
+    color: red;
+}
+.form__name{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 325px;
+}
+.firstname{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.flname-form{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 172, 179);
+}
+.lastname{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.form__email-phone{
+    width: 420px;
+    height: 60px;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+}
+.et-form{
+    width: 190px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 172, 179);
+}
+.form__question{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+}
+.form-question__textarea{
+    width: 320px;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid rgb(149, 172, 179);
+}
+.button{
+    width: 100px;
+    height: 35px;
+    margin-left: 280px;
+    margin-top: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button__text{
+    text-decoration: none;
+    color: white;
+    border: none;
+}

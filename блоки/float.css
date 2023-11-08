@@ -1,0 +1,13 @@
+.container{
+    max-width: 400px;
+
+    margin: 0 auto;
+}
+.img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.clear{
+    clear: both;
+}

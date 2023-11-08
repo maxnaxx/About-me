@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="complaints.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="header__title">
+                Complaints
+            </h1>
+            <div class="header__text">
+                Help us improve our service
+            </div>
+        </header>
+        <div class="form">
+            <div class="name-item">
+                <label class="fullname" for="fullame">Full Name <em class="red-star">*</em>
+                </label>
+                <div class="form__name">
+                    <span class="firstname">
+                        <input class="flname-form" type="text" required>
+                        <label for="first">First</label>
+                    </span>
+                    <span class="lastname">
+                        <input class="flname-form" type="text">
+                        <label for="last">Last</label>
+                    </span>        
+                </div>
+            </div>
+            <div class="form__email-phone">
+                <label for="email">Email <em class="red-star">*</em></label>
+                <input class="et-form" type="email" required>
+            </div>
+            <div class="form__email-phone">
+                <label for="phone">Phone</label>
+                <input class="et-form" type="tel">
+            </div>
+            <div class="form__question">
+                <label for="question">Where did we go wrong? <em class="red-star">*</em></label>
+                <textarea class="form-question__textarea" name="answer" id="answer" cols="30" rows="10" required></textarea>
+            </div>
+            <div class="button">
+                <a href="" class="button__text">Submit</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

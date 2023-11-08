@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="header__title">SURVEY FORM</h1>
+            <div class="header__text fw">We appreciate your participation in our industry. Please take the survey & leave a remark below to help with the future improvement.</div>
+        </header>
+        <div class="survey-form">
+            <div class="personal-info">
+               <h3>Personal information</h3>
+               <div class="name-gender fw">
+                    <div class="form-name">
+                    <label for="name">Name</label>
+                    <input required id="name" type="text" >
+                    </div>
+                    <div class="form-gender">
+                    <label for="gender">Gender</label>
+                    <input required id="gender" type="text">
+                    </div>    
+               </div>
+               <div class="form fw">
+                <label for="adress">Adress</label>
+                <input required id="adress" type="adress">
+               </div>
+               <div class="form fw">
+                <label for="email">Email</label>
+                <input required id="email" type="email">
+               </div>
+               <div class="form-tel fw">
+                <label for="tel">Phone</label>
+                <input required id="tel" type="tel">
+               </div>
+            </div>
+            <div class="questions">
+                <div class="form-question fw">
+                    <div class="form-question__title"><h3>Question 1.</h3> Type here your question. Which is your question?</div>
+                    <textarea class="form__answer" required name="answer" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-question fw">
+                    <div class="form-question__title"><h3>Question 2.</h3> Type here your question. Which is your question?</div>
+                    <textarea class="form__answer" required name="answer" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-question fw">
+                    <div class="form-question__title"><h3>Question 3.</h3> Type here your question. Which is your question?</div>
+                    <textarea class="form__answer" required name="answer" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

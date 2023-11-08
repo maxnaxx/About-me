@@ -1,0 +1,107 @@
+.container{
+    font-family: sans-serif;
+
+    width: 580px;
+    height: 840px;
+
+    border: 1px solid gray;
+}
+header{
+    width: 430px;
+    height: 100px; 
+    margin: 40px 100px 10px 50px;
+}
+.header__title{
+    margin: 20px 0 10px;
+}
+.header__text{
+    font-style: italic;
+}
+.survey-form{
+    background-color: rgba(255, 218, 224, 0.852);
+    padding: 10px;
+    width: 560px;
+    height: 670px;
+}
+.personal-info{
+    width: 460px;
+    height: 200px;
+    margin: 0 0px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name-gender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fw{
+    font-weight: 300;
+    font-size: 14px;
+}
+.form-name{
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-gender{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.form-tel{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#name{
+    width: 230px;
+    height: 20px;
+    border: 1px solid rgb(183, 155, 159);
+}
+#gender{
+    width: 50px;
+    height: 20px;
+    border: 1px solid rgb(183, 155, 159);
+}
+#adress{
+    width: 370px;
+    height: 20px;
+    border: 1px solid rgb(183, 155, 159);
+}
+#email{
+    width: 370px;
+    height: 20px;
+    border: 1px solid rgb(183, 155, 159);
+}
+#tel{
+    width: 150px;
+    height: 20px;
+    border: 1px solid rgb(183, 155, 159);
+}
+.questions{
+    margin: 0 50px;
+}
+.form__question{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-question__title{
+    display: flex;
+    align-items: center;
+}
+.form__answer{
+    width: 100%;
+    height: 95px;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid rgb(183, 155, 159);
+}
